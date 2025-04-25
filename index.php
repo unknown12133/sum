@@ -4,6 +4,7 @@ session_start();
  //$con=new mysqli('sql12.freesqldatabase.com','sql12774509','xrZCSQnnLj','sql12774509');
 $a='';
 $b='';
+$sum='';
 if (isset($_POST['submit'])){
     $a = $_POST['a'];
     $b=$_POST['b'];       
